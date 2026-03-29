@@ -34,7 +34,7 @@ largely linear relationships.
 - Tenure is the single strongest predictor of churn (SHAP value: 0.85)
 
 ## Project structure
-
+```
 telco-churn/
 ├── data/               # Raw data — not tracked (see setup below)
 ├── notebooks/          # One notebook per DS phase
@@ -46,26 +46,26 @@ telco-churn/
 ├── outputs/            # Saved charts and figures
 ├── requirements.txt    # Python dependencies
 └── README.md
-
+```
 
 ## Setup
 
 ### 1. Clone the repo
-
+```
 git clone https://github.com/Drew-Zeimetz/telco-churn.git
 cd telco-churn
-
+```
 
 ### 2. Create and activate virtual environment
-
+```
 python -m venv venv
 source venv/Scripts/activate
-
+```
 
 ### 3. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 
 ### 4. Get the data
 Download from kaggle.com/datasets/blastchar/telco-customer-churn
@@ -89,3 +89,4 @@ sequentially — each one saves output that the next notebook loads.
 ## Tools used
 Python, Pandas, Scikit-learn, XGBoost, SHAP, Matplotlib, Seaborn, 
 Jupyter, Git, GitHub
+```
